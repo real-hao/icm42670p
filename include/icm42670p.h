@@ -9,7 +9,6 @@
 #pragma once
 
 #include "esp_err.h"
-#include "driver/i2c.h"
 
 /**
  * @brief get real temperature from raw value
@@ -47,7 +46,7 @@ typedef struct {
  * @return        ESP_OK: Init success
  *                ESP_FAIL: Init failed
  */
-esp_err_t icm42670p_init(i2c_port_t i2c_num, uint8_t address);
+esp_err_t icm42670p_init(int i2c_num, uint8_t address);
 
 /**
  * @brief       Get raw data from icm42670p

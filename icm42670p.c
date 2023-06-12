@@ -9,6 +9,7 @@
 
 #include "icm42670p.h"
 #include "esp_check.h"
+#include "driver/i2c.h"
 
 static const char *TAG = "icm42670p";
 static uint8_t g_address = 0b1101000;
