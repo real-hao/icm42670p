@@ -30,4 +30,4 @@ Add this component in your ESP-IDF project and try example code.
 
 You can use [Serial Studio](*https://github.com/Serial-Studio/Serial-Studio*) to draw real-time data in graph.
 
-![image-20230612165340537](C:\Users\njduh\Documents\CLionProjects\freeos\components\icm42670p\assets\image-20230612165340537.png)
+![image-20230612165340537](./assets/image-20230612165340537.png)
