@@ -27,7 +27,7 @@
 #define get_real_gyro(raw)              ((float)(raw) / 16.4f)
 
 /**
- * @brief ICM42670P driver error code
+ * @brief ICM42670P raw data read from driver
  */
 typedef struct {
     int16_t accel_x;    /*!< Accelerometer X axis */
